@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700"); 
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,500");
+
+body { 
+	margin: 0;
+	font-family: 'Rubik', sans-serif;
+}
+
+.container {
+	margin: 0 auto;	
+	width: 700px;
+}
+
+header { 
+	padding: 40px;
+	background: url("https://images.pexels.com/photos/139530/pexels-photo-139530.jpeg?h=350&auto=compress&cs=tinysrgb") 70% 75%;
+	background-repeat: no-repeat; 
+   	background-size: cover;
+}
+
+header h1 {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 38px;
+}
+
+header p, header h1 {
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+}
+
+selection {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.about h2 {
+	color: #34495e;
+	font-size: 35px;
+	padding: 20px;
+}
+
+.about p {
+	padding: 20px;
+}
+
+.interests h2 {
+	color: #3498db;	
+	font-size: 30px;
+	padding: 20px;
+}
+
+.interests p {
+	padding: 20px;
+}
+
+ footer p {
+	padding: 30px;
+	background: gray;
+	font-size: 20px;
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: #FFC532;
+	font-weight: bold;
+	text-align: center;
+}
+
+h1, h2 {
+	 font-family: 'Montserrat', sans-serif;	
+}
